@@ -1,0 +1,37 @@
+header{
+  background: url(../images/CheckList.jpg) center/cover;
+  height: 25vh;
+  justify-content: left;
+  text-align: left;
+}
+
+ul{
+  list-style-position: inside;
+  text-align: left;
+  justify-content: left;
+}
+
+h1{
+  color: hsla(0,0%,11%,0.9);
+  font-weight: bold;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
+
+.description{
+  color: #11111;
+  font-weight: bold;
+  background-color: #111111;
+}
