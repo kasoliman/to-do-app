@@ -17,7 +17,7 @@ function onReady(){
     NEW_TODO_TEXT.value = '';
     renderTheUI();
   }
-
+  
   function renderTheUI(){
     const TO_DO_LIST = document.getElementById('toDoList');
     TO_DO_LIST.textContent = '';
